@@ -1,5 +1,5 @@
 {
-  "name": "vvg-cli",
+  "name": "@tiveor/vvg-cli",
   "version": "0.1.0",
   "description": "",
   "main": "./bin/index.js",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/tiveor/vvg-cli/issues"
   },
-  "homepage": "https://github.com/tiveor/vvg-cli#readme"
+  "homepage": "https://github.com/tiveor/vvg-cli#readme",
+  "dependencies": {
+    "@tiveor/vvg": "^0.1.1",
+    "canvas": "^2.6.1"
+  }
 }
